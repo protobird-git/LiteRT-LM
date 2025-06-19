@@ -1,5 +1,5 @@
 {
-  "checksum": "1b3579bdb47792f6020d07e57b0b1da47a1856d83a3c6cda9c8d5de0014e8c46",
+  "checksum": "54130844c8b5d3440283f516b9508b9560ea698e257f93f106f4d110ef1b467c",
   "crates": {
     "aho-corasick 1.1.3": {
       "name": "aho-corasick",
@@ -2335,6 +2335,12 @@
                 "target": "libc"
               }
             ],
+            "aarch64-linux-android": [
+              {
+                "id": "libc 0.2.172",
+                "target": "libc"
+              }
+            ],
             "aarch64-unknown-linux-gnu": [
               {
                 "id": "libc 0.2.172",
@@ -4070,6 +4076,9 @@
     "aarch64-apple-darwin": [
       "aarch64-apple-darwin"
     ],
+    "aarch64-linux-android": [
+      "aarch64-linux-android"
+    ],
     "aarch64-unknown-linux-gnu": [
       "aarch64-unknown-linux-gnu"
     ],
@@ -4079,6 +4088,7 @@
     ],
     "cfg(unix)": [
       "aarch64-apple-darwin",
+      "aarch64-linux-android",
       "aarch64-unknown-linux-gnu",
       "x86_64-unknown-linux-gnu",
       "x86_64-unknown-nixos-gnu"
